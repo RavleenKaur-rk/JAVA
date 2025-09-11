@@ -1,0 +1,4 @@
+Question: Suppose you're teaching a group of new programmers. Explain why Java’s “automatic memory management” and “bounds checking” can prevent common beginner bugs.
+Answer (teaching style):
+Automatic memory management (Garbage Collection): Beginners don’t need to worry about manually freeing memory, so they avoid leaks and crashes. Example: if a student creates objects in a loop, Java automatically clears unused ones.
+Bounds checking: Java checks array indices at runtime. If you try to access arr[10] in a size-5 array, Java gives an error instead of silently corrupting memory (like C++). This prevents “weird bugs” beginners often face.

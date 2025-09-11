@@ -1,0 +1,5 @@
+Easy 1
+Question: List two features of Java that make it suitable for cross-platform development.
+Answer:
+Bytecode & JVM → Java programs are compiled into bytecode, which can run on any machine with a JVM (Write Once, Run Anywhere).
+Standard Libraries → Java provides a rich set of built-in libraries that behave the same across platforms (Windows, Linux, Mac).

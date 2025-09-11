@@ -1,0 +1,4 @@
+Question: How does Java protect programmers from memory management mistakes common in C++?
+Answer:
+In C++, programmers manually allocate (new) and free (delete) memory, which can lead to memory leaks and dangling pointers.
+In Java, memory is managed automatically by the Garbage Collector (GC), so unused objects are freed automatically.

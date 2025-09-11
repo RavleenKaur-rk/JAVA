@@ -1,0 +1,8 @@
+Question: Choose any two drawbacks of C++ (such as build complexity and pointer errors). For each, describe how Java’s approach makes learning and team programming easier. Support with simple examples.
+Answer:
+Pointer Errors in C++:
+In C++, beginners misuse pointers (int* p; *p = 10;) → can crash programs.
+Java’s approach: Java has no explicit pointers. Instead, it uses references safely
+Build Complexity in C++:
+In C++, you manage header files, linking, multiple compilers, etc. This confuses beginners and slows teams.
+Java’s approach: One command (javac) compiles to bytecode, and java runs it.
